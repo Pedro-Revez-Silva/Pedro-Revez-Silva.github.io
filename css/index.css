@@ -61,7 +61,7 @@ nav {
 }
 
 .portrait {
-  width: 300px;
+  width: 200px;
   border-radius: var(--border-radius);
   flex-shrink: 0;
 }
@@ -70,8 +70,20 @@ nav {
   display: flex;
 }
 
+.contacts-container {
+  display: flex;
+  margin-right: var(--spacing-3);
+}
+
 .about-me-text-container {
   margin-right: var(--spacing-3);
+}
+.experience-image {
+  width: 50%;
+}
+
+.experience-title h3 {
+  display: inline;
 }
 
 .project-image {
@@ -119,7 +131,7 @@ a {
 #skills-container {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: start;
   flex-wrap: wrap;
 }
 
