@@ -96,10 +96,21 @@ nav {
 
 details {
   cursor: pointer;
+  
+
+}
+details[open] summary ~ * {
+  animation: sweep .7s ease-in-out;
+}
+
+@keyframes sweep {
+  0%    {opacity: 0; margin-left: 0px}
+  100%  {opacity: 1; margin-left: 0px}
 }
 
 summary {
   list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+
 }
 
 footer {
