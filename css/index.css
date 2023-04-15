@@ -152,6 +152,11 @@ a {
   margin-top: var(--spacing-1);
 }
 
+
+.experience-details {
+  font-size: small;
+}
+
 @media only screen and (max-width: 600px) {
   .about-me-container {
     flex-direction: column;
