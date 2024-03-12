@@ -51,51 +51,155 @@
     </section>
     <section id="experience">
       <h2>Experience</h2>
-      
       <details class="experience">
         <summary class="experience-title">
-          <h3>Application Service Engineer @ Siemens</h3>
+          <h3>Software Developer in Test @ Trakx</h3>
         </summary>
-        <p class="experience-description">
-          It was my first experience working in development after studying it
-          was where I had more opportunities to learn. In this project I was
-          the only software developer in the team. The purpose was to build an
-          interface between old, sometimes mechanical, traffic controllers and
-          a state of the art traffic management central system. As expected
-          some functions and data-collection would be unavailable or limited.
-          We achieved a production ready solution, comprised of a
-          microcontroller programmed in C, connected via VPN to a server
-          application developed in Java and running in a Linux server. The
-          server application managed the incoming data and relaid it to the
-          central system using a SOAP based protocol. Besides developing the
-          server application from scratch, I was also responsible for the
-          production of the devices, large scale testing and deployment of the
-          field test units. During this time I also contributed to another
-          project focused on providing an internal platform for day-to-day
-          bureaucratic processes. Helped improve the usability tests and made
-          some improvements.
-        </p>
+        <ul class="experience-description">
+          <p>
+            Trakx is a company that provides a platform for trading crypto based assets, as such
+            its important to ensure all operations are reliable and secure. My main focus was to 
+            implement and maintain a test suite that would ensure the reliability of the platform.
+            
+            The main challenges were to test the whole application (E2E & API) given that it was a complex system with ever
+            changing values and patterns. Any tests to such platforms have to be reliable and dynamic. Along with this 
+            I also implemented a system to monitor unexpected price changes or missing data in real time and report them to the team
+            via slack.
+          </p>
+          <li>
+           Playwright in TypeScript for both E2E tests and API tests.
+          </li>
+          <li>Python.</li>
+          <li>
+            Dotnet.
+          </li>
+          <li>Github Actions</li>
+          <li>
+            AWS Secret Manager.
+          </li>
+          <li>
+            Grafana.
+          </li>
+          <li>
+            Cybersecurity & Trading compliance training.
+          </li>
+        </ul>
+
       </details>
       <details class="experience">
         <summary class="experience-title">
-          <h3>Usability Analyst & Manual QA @ Kwan</h3>
+          <h3>Software Developer in Test @ Moteefe</h3>
         </summary>
-        <p class="experience-description">
-          On a first step my role was as Usability Analyst on AMA, a
-          government company that works on bureaucratic process
-          digitalization. I was tasked with analysing and reporting
-          performance and UI problems or improvements on a government web
-          platform that provides public services. The focus was on web
-          technologies and UI good practices following W3C standards. Within
-          this consultancy company I also worked for Collab, this company
-          develops software for call centres. I was responsible for testing
-          the administrative platform as well as the functionalities around
-          calls, from simulating network problems to codec compatibility. The
-          technologies I worked with more frequently were SIP, Flash, Windows
-          Servers, SQL and multiple front-end and back-end technologies. For
-          version control and testing we used windows tools (VSTS, Azure,
-          etc).
-        </p>
+        <ul class="experience-description">
+          <p>
+            Started by using Codeceptjs since it was the tool that was
+            implemented already, but it was replaced by Cypress in JS and then
+            in TS. For API testing the main tool was Postman with assertions
+            and logic in JS. The API was moved into REST following the OpenAPI
+            standard and the tests moved into Playwright. I used this tool to
+            automate some regression tests and to test features that required
+            creating a lot of data.
+          </p>
+          <li>
+            Implement solutions to reduce test flakiness and improve test
+            coverage.
+          </li>
+          <li>Map and Test API endpoints.</li>
+          <li>
+            Implement API Testing tool. Originally started to use Postman,
+            moved to mocha & chai.
+          </li>
+          <li>Tests run in CircleCI or locally. GitHub actions replaced CircleCI.</li>
+          <li>
+            Implemented a script to monitor third party APIs (GitHub Actions) and report issues
+            to PagerDuty.
+          </li>
+          <li>
+            Added a feature to the Admin Panel web app to create E2E valid and
+            producible test orders without having to manually create them.
+          </li>
+          <li>
+            Built test scripts for regression tests and to generate test data using real
+            endpoints or the UI using Playwright in TS.
+          </li>
+          <li>
+            Implemented a script to monitor service versions and report releases to QA. This was
+            done to ensure new releases were correctly deployed in production.
+          </li>
+          <li>
+            Made some Dev experience improvements by making is easier choose which services to release.
+          </li>
+        </ul>
+      </details>
+      <details class="experience">
+        <summary class="experience-title">
+          <h3>Software Developer In Test @ Budibase</h3>
+        </summary>
+        <ul>
+          <p class="experience-description">
+            Design and development of an automated test suite focused on the internal and public API.
+            The main challenges were to design a test suite that could be easily maintained and that
+            could be run in parallel while managing the test data (users and permissions) and access
+            to test data sources. I also helped improve the CI/CD pipeline and the documentation for
+            QA processes.
+          </p>
+          <li>API testing with jest</li>
+          <li>TypeScript</li>
+          <li>VSCode</li>
+          <li>Environment Setup in Windows using WSL</li>
+          <li>Git</li>
+          <li>Documentation</li>
+          <li>Docker</li>
+          <li>Github Actions</li>
+          <li>Postman</li>
+          <li>OpenAPI</li>
+          <li>Swagger</li>
+          <li>MySQL</li>
+          <li>REST</li>
+          <li>GraphQL</li>
+          <li>Postgres</li>
+        </ul>
+      </details>
+      <details class="experience">
+        <summary class="experience-title">
+          <h3>QA Consultant @ Hitachi</h3>
+        </summary>
+        <ul>
+          <p class="experience-description">
+            Provided consultancy services for the a QA team in a big and prestigious company
+            that works with Customer data science and analytics, experts in working with
+            brands, grocery retail, retail pharmacy, and retailer financial services.
+            The main focus was to improve the QA process and general quality of the application.
+            I also helped improve the reporting of the test results and the CI/CD pipeline and
+            made suggestions to improve the tools used by the team.
+
+            The main challenge was the lack of documentation and the complexity of the systems
+            in place for their infrastructure and the application itself.
+          </p>
+          <li>E2E testing with Cypress</li>
+          <li>JavaScript</li>
+          <li>Enterprise Tools</li>
+          <li>Environment Setup in Windows</li>
+        </ul>
+      </details>
+      <details class="experience">
+        <summary class="experience-title">
+          <h3>QA Consultant @ Ryd</h3>
+        </summary>
+        <ul>
+          <p class="experience-description">
+            Provided consultancy services for the QA team. The main focus was to improve
+            the test suite's reliability and to implement new features. I also helped improve
+            the reporting of the test results and the CI/CD pipeline.
+          </p>
+          <li>API testing with pytest</li>
+          <li>Python</li>
+          <li>PyCharm</li>
+          <li>Environment Setup in Windows</li>
+          <li>Git</li>
+          <li>Documentation</li>
+
+        </ul>
       </details>
       <details class="experience">
         <summary class="experience-title">
@@ -120,113 +224,76 @@
       </details>
       <details class="experience">
         <summary class="experience-title">
-          <h3>QA Consultant @ Ryd</h3>
-        </summary>
-        <ul>
-        <p class="experience-description">
-          Provided consultancy services for the QA team. The main focus was to improve
-          the test suite's reliability and to implement new features. I also helped improve
-          the reporting of the test results and the CI/CD pipeline.
-        </p>
-        <li>API testing with pytest</li>
-        <li>Python</li>
-        <li>PyCharm</li>
-        <li>Environment Setup in Windows</li>
-        <li>Git</li>
-        <li>Documentation</li>
-
-        </ul>
-      </details>
-      <details class="experience">
-        <summary class="experience-title">
-          <h3>QA Consultant @ Hitachi</h3>
-        </summary>
-        <ul>
-        <p class="experience-description">
-          Provided consultancy services for the a QA team in a big and prestigious company 
-          that works with Customer data science and analytics, experts in working with 
-          brands, grocery retail, retail pharmacy, and retailer financial services.
-          The main focus was to improve the QA process and general quality of the application.
-          I also helped improve the reporting of the test results and the CI/CD pipeline and 
-          made suggestions to improve the tools used by the team.
-
-          The main challenge was the lack of documentation and the complexity of the systems 
-          in place for their infraestructure and the application itself.
-        </p>
-        <li>E2E testing with Cypress</li>
-        <li>JavaScript</li>
-        <li>Enterprise Tools</li>
-        <li>Environment Setup in Windows</li>
-        </ul>
-      </details>
-      <details class="experience">
-        <summary class="experience-title">
-          <h3>Software Developer In Test @ Budibase</h3>
-        </summary>
-        <ul>
-        <p class="experience-description">
-          Design and development of an automated test suite focused on the internal and public API. 
-          The main challenges were to design a test suite that could be easily maintained and that 
-          could be run in parallel while managing the test data (users and permissions) and access 
-          to test data sources. I also helped improve the CI/CD pipeline and the documentation for 
-          QA processes.
-        </p>
-        <li>API testing with jest</li>
-        <li>TypeScript</li>
-        <li>VSCode</li>
-        <li>Environment Setup in Windows using WSL</li>
-        <li>Git</li>
-        <li>Documentation</li>
-        <li>Docker</li>
-        <li>Github Actions</li>
-        <li>Postman</li>
-        <li>OpenAPI</li>
-        <li>Swagger</li>
-        <li>MySQL</li>
-        <li>REST</li>
-        <li>GraphQL</li>
-        <li>Postgres</li>
-        </ul>
-      </details>
-      <details class="experience">
-        <summary class="experience-title">
-          <h3>Software Developer in Test @ Moteefe</h3>
+          <h3>QA Automation Engineer & Technical Product Manager @ Jibble</h3>
         </summary>
         <ul class="experience-description">
-          <p>
-            Started by using Codeceptjs since it was the tool that was
-            implemented already, but it was replaced by Cypress in JS and then
-            in TS. For API testing the main tool was Postman with assertions
-            and logic in JS. The API was moved into REST following the OpenAPI
-            standard and the tests moved into Playwright. I used this tool to 
-            automate some regression tests and to test features that required 
-            creating a lot of data.
-          </p>
           <li>
-            Implement solutions to reduce test flakiness and improve test
-            coverage.
-          </li>
-          <li>Map and Test API endpoints.</li>
-          <li>
-            Implement API Testing tool. Originally started to use Postman,
-            moved to mocha & chai.
-          </li>
-          <li>Tests run in CircleCI or locally.</li>
-          <li>
-            Implemented a script to monitor third party APIs (GitHub Actions) and report issues
-            to PagerDuty.
+            Implementation of the QA process for the Jibble Team (XRay).
           </li>
           <li>
-            Added a feature to the Admin Panel web app to create E2E valid and
-            producible test orders without having to manually create them.
+            Implementation of automation tools for UI testing (Cypress.io).
           </li>
+          <li>Implementation of API tests (Rider & Postman).</li>
+          <li>Setting goals for the QA Team.</li>
+          <li>Testing of Web, Mobile and Desktop apps.</li>
           <li>
-            Built test scripts for regression tests and to generate test data using real 
-            endpoints or the UI using Playwright in TS.
+            Development of Small utility apps for API monitoring, Data
+            generation and Imports.
           </li>
+          <li>Heading the Public API and Integrations effort.</li>
         </ul>
-        
       </details>
+      <details class="experience">
+        <summary class="experience-title">
+          <h3>Usability Analyst & Manual QA @ Kwan</h3>
+        </summary>
+        <p class="experience-description">
+          On a first step my role was as Usability Analyst on AMA, a
+          government company that works on bureaucratic process
+          digitalization. I was tasked with analysing and reporting
+          performance and UI problems or improvements on a government web
+          platform that provides public services. The focus was on web
+          technologies and UI good practices following W3C standards. Within
+          this consultancy company I also worked for Collab, this company
+          develops software for call centres. I was responsible for testing
+          the administrative platform as well as the functionalities around
+          calls, from simulating network problems to codec compatibility. The
+          technologies I worked with more frequently were SIP, Flash, Windows
+          Servers, SQL and multiple front-end and back-end technologies. For
+          version control and testing we used windows tools (VSTS, Azure,
+          etc).
+        </p>
+      </details>
+      <details class="experience">
+        <summary class="experience-title">
+          <h3>Application Service Engineer @ Siemens</h3>
+        </summary>
+        <p class="experience-description">
+          It was my first experience working in development after studying it
+          was where I had more opportunities to learn. In this project I was
+          the only software developer in the team. The purpose was to build an
+          interface between old, sometimes mechanical, traffic controllers and
+          a state of the art traffic management central system. As expected
+          some functions and data-collection would be unavailable or limited.
+          We achieved a production ready solution, comprised of a
+          microcontroller programmed in C, connected via VPN to a server
+          application developed in Java and running in a Linux server. The
+          server application managed the incoming data and relaid it to the
+          central system using a SOAP based protocol. Besides developing the
+          server application from scratch, I was also responsible for the
+          production of the devices, large scale testing and deployment of the
+          field test units. During this time I also contributed to another
+          project focused on providing an internal platform for day-to-day
+          bureaucratic processes. Helped improve the usability tests and made
+          some improvements.
+        </p>
+      </details>
+
+
+
+
+
+
       <p class="experience-details">Expand for details</p>
     </section>
 
